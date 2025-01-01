@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NetMirrorApp</title>
+    <style>
+        /* Global Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: black;
+            color: white;
+            margin: 0;
+        }
+
+        /* Navbar Styles */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            background-color: #333;
+            padding: 10px 20px;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 100;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            font-size: 18px;
+        }
+
+        .navbar a:hover {
+            background-color: #555;
+            border-radius: 5px;
+        }
+
+        /* Main Section */
+        .main-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: auto;
+            margin-top: 60px; /* Offset for the navbar */
+            padding-bottom: 40px; /* Space for the second and third sections */
+        }
+
+        .frame {
+            width: 300px;
+            height: 300px;
+            background-color: #222;
+            border-radius: 10px;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            margin-bottom: 20px; /* Space between frames */
+        }
+
+        .frame img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .app-name {
+            color: red;
+            font-size: 24px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .rating {
+            color: #f1c40f;
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        .download-btn {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #e50914;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        .download-btn:hover {
+            background-color: #f40612;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="#">Downloads</a>
+        <a href="#">About</a>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-container">
+        <!-- Square Frame for NetMirrorApp -->
+        <div class="frame">
+            <img src="net.jpg" alt="NetMirrorApp">
+        </div>
+
+        <!-- NetMirrorApp Name -->
+        <div class="app-name">
+            NetMirrorApp
+        </div>
+
+        <!-- NetMirrorApp Rating -->
+        <div class="rating">
+            Rating: 8/10
+        </div>
+
+        <!-- NetMirrorApp Download Button (with a redirect) -->
+        <a href="https://pcmirror.cc/home">
+            <button class="download-btn">
+                Downloads
+            </button>
+        </a>
+
+        <!-- Square Frame for MoviesHub -->
+        <div class="frame">
+            <img src="movie.jpg" alt="MoviesHub">
+        </div>
+
+        <!-- MoviesHub Name -->
+        <div class="app-name">
+            MoviesHub
+        </div>
+
+        <!-- MoviesHub Rating -->
+        <div class="rating">
+            Rating: 6.5/10
+        </div>
+
+        <!-- MoviesHub Download Button (with a redirect to MediaFire) -->
+        <a href="https://www.mediafire.com/file_premium/k4imagfi5xkejs0/MOVIES_HUB_Premium_v2.1.4p_luchitoapk.com.apk/file" download>
+            <button class="download-btn">
+                Downloads
+            </button>
+        </a>
+
+        <!-- Square Frame for TikTok -->
+        <div class="frame">
+            <img src="tik.jpj.png" alt="TikTok">
+        </div>
+
+        <!-- TikTok Name -->
+        <div class="app-name">
+            TikTok
+        </div>
+
+        <!-- TikTok Rating -->
+        <div class="rating">
+            Rating: 5.7/10
+        </div>
+
+        <!-- TikTok Download Button (with a redirect to MediaFire) -->
+        <a href="https://www.mediafire.com/file_premium/w5shid9s45jj0jm/TikTok_TV_v12.2.62.0_luchitoapk.com.apk/file" download>
+            <button class="download-btn">
+                Downloads
+            </button>
+        </a>
+
+         <!-- Square Frame for  Cinema -->
+         <div class="frame">
+            <img src=" Cinema.jpg" alt=" Cinema">
+        </div>
+
+        <!-- cinemaName -->
+        <div class="app-name">
+            Cinema
+        </div>
+
+        <!-- cinema Rating -->
+        <div class="rating">
+            Rating: 4.9/10
+        </div>
+
+        <!-- cinema Download Button (with a redirect to MediaFire) -->
+        <a href="https://www.mediafire.com/file_premium/gvtyj4y5xqez84g/Cinema_Vip_v4.0.1_luchitoapk.com.apk/file" download>
+            <button class="download-btn">
+                Downloads
+            </button>
+        </a>
+
+        <!-- Square Frame for  Shadow Fight 2 -->
+        <div class="frame">
+            <img src=" Shadow.jpg" alt=" Shadow Fight 2">
+        </div>
+
+        <!-- Shadow Fight 2 Name -->
+        <div class="app-name">
+            Shadow Fight 2
+        </div>
+
+        <!-- Shadow Fight 2 Rating -->
+        <div class="rating">
+            Rating: 9/10
+        </div>
+
+        <!-- Shadow Fight 2 Download Button (with a redirect to MediaFire) -->
+        <a href="https://www.mediafire.com/file_premium/27s26dc050t8olp/Shadow_Fight-2_v2.40.5_Mod_luchitoapk.com.apk/file" download>
+            <button class="download-btn">
+                Downloads
+            </button>
+        </a>
+
+        <!-- Square Frame for Minecraft -->
+        <div class="frame">
+            <img src=" Minecraft.jpg" alt=" Minecraft">
+        </div>
+
+        <!-- Minecraft Name -->
+        <div class="app-name">
+            Minecraft
+        </div>
+
+        <!-- Minecraft Rating -->
+        <div class="rating">
+            Rating: 9/10
+        </div>
+
+        <!-- Minecraft Download Button (with a redirect to MediaFire) -->
+        <a href="https://www.mediafire.com/file_premium/dhth47w1rf3pcrk/Minecraft_v1.21.51.02_luchitoapk.com.apk/file" download>
+            <button class="download-btn">
+                Downloads
+            </button>
+        </a>
+    </div>
+
+</body>
+</html>
